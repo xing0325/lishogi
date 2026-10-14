@@ -7,6 +7,7 @@ import { dobutsu } from './dobutsu.js';
 import { kyotoshogi } from './kyotoshogi.js';
 import { special } from './special.js';
 import { standard } from './standard.js';
+import { taikyokudraft } from './taikyokudraft.js';
 import type { PieceSetVariant } from './types.js';
 import { variants } from './util.js';
 
@@ -38,6 +39,14 @@ async function main() {
       build(v);
       special(v, assetsDir, baseDestDir);
     });
+    // not a selectable piece-set variant (no dasher entry): one generated set, css references svg files
+    const imgDestDir = path.join(rootDir, getOutputDirectory(), 'piece/taikyokudraft');
+    await rm(imgDestDir, { recursive: true, force: true });
+    taikyokudraft(
+      path.join(assetsDir, 'taikyokudraft'),
+      path.join(baseDestDir, 'taikyokudraft'),
+      imgDestDir,
+    );
 
     process.exit(0);
   } catch (err) {

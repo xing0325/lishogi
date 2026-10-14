@@ -32,8 +32,7 @@
   },
   "scripts": {
     "preinstall": "npx only-allow pnpm",
-    "ui:build": "pnpm run --parallel build && pnpm run taikyoku:pieces",
-    "taikyoku:pieces": "node bin/taikyoku-piece-css.mjs",
+    "ui:build": "pnpm run --parallel build",
     "ui:build:watch": "pnpm run --parallel build:watch",
     "ui:lint": "biome check && knip --no-config-hints && stylelint **/*.scss --cache --ignore-path .gitignore",
     "ui:lint:fix": "biome check --write && knip --no-config-hints --fix && stylelint **/*.scss --cache --ignore-path .gitignore --fix",

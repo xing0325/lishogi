@@ -1,0 +1,1757 @@
+[
+ {
+  "role": "king",
+  "kanji": "王将",
+  "promoted": false
+ },
+ {
+  "role": "tk-angle-general",
+  "kanji": "角将",
+  "promoted": false
+ },
+ {
+  "role": "tk-angle-mover",
+  "kanji": "角行",
+  "promoted": false
+ },
+ {
+  "role": "tk-angry-boar",
+  "kanji": "嗔猪",
+  "promoted": false
+ },
+ {
+  "role": "tk-bear-soldier",
+  "kanji": "熊兵",
+  "promoted": false
+ },
+ {
+  "role": "tk-beast-cadet",
+  "kanji": "獣曹",
+  "promoted": false
+ },
+ {
+  "role": "tk-beast-officer",
+  "kanji": "獣吏",
+  "promoted": false
+ },
+ {
+  "role": "tk-blind-bear",
+  "kanji": "盲熊",
+  "promoted": false
+ },
+ {
+  "role": "tk-blind-dog",
+  "kanji": "盲犬",
+  "promoted": false
+ },
+ {
+  "role": "tk-blind-monkey",
+  "kanji": "盲猿",
+  "promoted": false
+ },
+ {
+  "role": "tk-blind-tiger",
+  "kanji": "盲虎",
+  "promoted": false
+ },
+ {
+  "role": "tk-blue-dragon",
+  "kanji": "青龍",
+  "promoted": false
+ },
+ {
+  "role": "tk-boar-soldier",
+  "kanji": "猪兵",
+  "promoted": false
+ },
+ {
+  "role": "tk-buddhist-devil",
+  "kanji": "羅刹",
+  "promoted": false
+ },
+ {
+  "role": "tk-cannon-soldier",
+  "kanji": "炮兵",
+  "promoted": false
+ },
+ {
+  "role": "tk-capricorn",
+  "kanji": "摩羯",
+  "promoted": false
+ },
+ {
+  "role": "tk-cassia-horse",
+  "kanji": "桂馬",
+  "promoted": false
+ },
+ {
+  "role": "tk-cat-sword",
+  "kanji": "猫刀",
+  "promoted": false
+ },
+ {
+  "role": "tk-center-master",
+  "kanji": "中師",
+  "promoted": false
+ },
+ {
+  "role": "tk-center-standard",
+  "kanji": "中旗",
+  "promoted": false
+ },
+ {
+  "role": "tk-ceramic-dove",
+  "kanji": "鳩盤",
+  "promoted": false
+ },
+ {
+  "role": "tk-chariot-soldier",
+  "kanji": "車兵",
+  "promoted": false
+ },
+ {
+  "role": "tk-chicken-general",
+  "kanji": "鶏将",
+  "promoted": false
+ },
+ {
+  "role": "tk-climbing-monkey",
+  "kanji": "登猿",
+  "promoted": false
+ },
+ {
+  "role": "tk-cloud-dragon",
+  "kanji": "雲龍",
+  "promoted": false
+ },
+ {
+  "role": "tk-cloud-eagle",
+  "kanji": "雲鷲",
+  "promoted": false
+ },
+ {
+  "role": "tk-coiled-serpent",
+  "kanji": "蟠蛇",
+  "promoted": false
+ },
+ {
+  "role": "tk-copper-chariot",
+  "kanji": "銅車",
+  "promoted": false
+ },
+ {
+  "role": "tk-copper-general",
+  "kanji": "銅将",
+  "promoted": false
+ },
+ {
+  "role": "tk-crossbow-soldier",
+  "kanji": "弓兵",
+  "promoted": false
+ },
+ {
+  "role": "tk-dark-spirit",
+  "kanji": "無明",
+  "promoted": false
+ },
+ {
+  "role": "tk-deva",
+  "kanji": "提婆",
+  "promoted": false
+ },
+ {
+  "role": "tk-dog",
+  "kanji": "犬",
+  "promoted": false
+ },
+ {
+  "role": "tk-donkey",
+  "kanji": "驢馬",
+  "promoted": false
+ },
+ {
+  "role": "tk-dragon-horse",
+  "kanji": "龍馬",
+  "promoted": false
+ },
+ {
+  "role": "tk-dragon-king",
+  "kanji": "龍王",
+  "promoted": false
+ },
+ {
+  "role": "tk-drunken-elephant",
+  "kanji": "酔象",
+  "promoted": false
+ },
+ {
+  "role": "tk-earth-chariot",
+  "kanji": "土車",
+  "promoted": false
+ },
+ {
+  "role": "tk-earth-dragon",
+  "kanji": "地龍",
+  "promoted": false
+ },
+ {
+  "role": "tk-earth-general",
+  "kanji": "土将",
+  "promoted": false
+ },
+ {
+  "role": "tk-eastern-barbarian",
+  "kanji": "東夷",
+  "promoted": false
+ },
+ {
+  "role": "tk-enchanted-badger",
+  "kanji": "変狸",
+  "promoted": false
+ },
+ {
+  "role": "tk-evil-wolf",
+  "kanji": "悪狼",
+  "promoted": false
+ },
+ {
+  "role": "tk-fierce-bear",
+  "kanji": "猛熊",
+  "promoted": false
+ },
+ {
+  "role": "tk-fierce-dragon",
+  "kanji": "猛龍",
+  "promoted": false
+ },
+ {
+  "role": "tk-fierce-eagle",
+  "kanji": "猛鷲",
+  "promoted": false
+ },
+ {
+  "role": "tk-fierce-leopard",
+  "kanji": "猛豹",
+  "promoted": false
+ },
+ {
+  "role": "tk-fierce-ox",
+  "kanji": "猛牛",
+  "promoted": false
+ },
+ {
+  "role": "tk-fierce-stag",
+  "kanji": "猛鹿",
+  "promoted": false
+ },
+ {
+  "role": "tk-fierce-tiger",
+  "kanji": "猛虎",
+  "promoted": false
+ },
+ {
+  "role": "tk-fierce-wolf",
+  "kanji": "猛狼",
+  "promoted": false
+ },
+ {
+  "role": "tk-fire-demon",
+  "kanji": "火鬼",
+  "promoted": false
+ },
+ {
+  "role": "tk-fire-dragon",
+  "kanji": "火龍",
+  "promoted": false
+ },
+ {
+  "role": "tk-fire-general",
+  "kanji": "火将",
+  "promoted": false
+ },
+ {
+  "role": "tk-flying-cat",
+  "kanji": "飛猫",
+  "promoted": false
+ },
+ {
+  "role": "tk-flying-chariot",
+  "kanji": "飛車",
+  "promoted": false
+ },
+ {
+  "role": "tk-flying-chicken",
+  "kanji": "鶏飛",
+  "promoted": false
+ },
+ {
+  "role": "tk-flying-dragon",
+  "kanji": "飛龍",
+  "promoted": false
+ },
+ {
+  "role": "tk-flying-eagle",
+  "kanji": "飛鷲",
+  "promoted": false
+ },
+ {
+  "role": "tk-flying-general",
+  "kanji": "飛将",
+  "promoted": false
+ },
+ {
+  "role": "tk-flying-goose",
+  "kanji": "鳫飛",
+  "promoted": false
+ },
+ {
+  "role": "tk-flying-horse",
+  "kanji": "馬麟",
+  "promoted": false
+ },
+ {
+  "role": "tk-flying-ox",
+  "kanji": "飛牛",
+  "promoted": false
+ },
+ {
+  "role": "tk-flying-swallow",
+  "kanji": "飛燕",
+  "promoted": false
+ },
+ {
+  "role": "tk-forest-demon",
+  "kanji": "森鬼",
+  "promoted": false
+ },
+ {
+  "role": "tk-fowl-cadet",
+  "kanji": "禽曹",
+  "promoted": false
+ },
+ {
+  "role": "tk-fowl-officer",
+  "kanji": "禽吏",
+  "promoted": false
+ },
+ {
+  "role": "tk-fragrant-elephant",
+  "kanji": "香象",
+  "promoted": false
+ },
+ {
+  "role": "tk-free-demon",
+  "kanji": "奔鬼",
+  "promoted": false
+ },
+ {
+  "role": "tk-free-dream-eater",
+  "kanji": "奔獏",
+  "promoted": false
+ },
+ {
+  "role": "tk-free-eagle",
+  "kanji": "奔鷲",
+  "promoted": false
+ },
+ {
+  "role": "tk-free-king",
+  "kanji": "奔王",
+  "promoted": false
+ },
+ {
+  "role": "tk-free-pup",
+  "kanji": "奔狗",
+  "promoted": false
+ },
+ {
+  "role": "tk-front-standard",
+  "kanji": "前旗",
+  "promoted": false
+ },
+ {
+  "role": "tk-go-between",
+  "kanji": "仲人",
+  "promoted": false
+ },
+ {
+  "role": "tk-gold-bird",
+  "kanji": "金翅",
+  "promoted": false
+ },
+ {
+  "role": "tk-gold-chariot",
+  "kanji": "金車",
+  "promoted": false
+ },
+ {
+  "role": "tk-gold-general",
+  "kanji": "金将",
+  "promoted": false
+ },
+ {
+  "role": "tk-gold-stag",
+  "kanji": "金鹿",
+  "promoted": false
+ },
+ {
+  "role": "tk-great-dove",
+  "kanji": "大鳩",
+  "promoted": false
+ },
+ {
+  "role": "tk-great-dragon",
+  "kanji": "大龍",
+  "promoted": false
+ },
+ {
+  "role": "tk-great-general",
+  "kanji": "大将",
+  "promoted": false
+ },
+ {
+  "role": "tk-great-master",
+  "kanji": "大師",
+  "promoted": false
+ },
+ {
+  "role": "tk-great-stag",
+  "kanji": "大鹿",
+  "promoted": false
+ },
+ {
+  "role": "tk-great-standard",
+  "kanji": "大旗",
+  "promoted": false
+ },
+ {
+  "role": "tk-great-turtle",
+  "kanji": "大亀",
+  "promoted": false
+ },
+ {
+  "role": "tk-guardian-of-the-gods",
+  "kanji": "金剛",
+  "promoted": false
+ },
+ {
+  "role": "tk-hook-mover",
+  "kanji": "鉤行",
+  "promoted": false
+ },
+ {
+  "role": "tk-horned-hawk",
+  "kanji": "角鷹",
+  "promoted": false
+ },
+ {
+  "role": "tk-horse-general",
+  "kanji": "馬将",
+  "promoted": false
+ },
+ {
+  "role": "tk-horse-soldier",
+  "kanji": "馬兵",
+  "promoted": false
+ },
+ {
+  "role": "tk-horseman",
+  "kanji": "騎兵",
+  "promoted": false
+ },
+ {
+  "role": "tk-howling-dog-left",
+  "kanji": "𠵇犬",
+  "promoted": false
+ },
+ {
+  "role": "tk-howling-dog-right",
+  "kanji": "𠵇犬",
+  "promoted": false
+ },
+ {
+  "role": "tk-incense-chariot",
+  "kanji": "香車",
+  "promoted": false
+ },
+ {
+  "role": "tk-iron-general",
+  "kanji": "鉄将",
+  "promoted": false
+ },
+ {
+  "role": "tk-king",
+  "kanji": "王将",
+  "promoted": false
+ },
+ {
+  "role": "tk-kirin",
+  "kanji": "麒麟",
+  "promoted": false
+ },
+ {
+  "role": "tk-kirin-master",
+  "kanji": "麟師",
+  "promoted": false
+ },
+ {
+  "role": "tk-left-chariot",
+  "kanji": "左車",
+  "promoted": false
+ },
+ {
+  "role": "tk-left-dragon",
+  "kanji": "左龍",
+  "promoted": false
+ },
+ {
+  "role": "tk-left-general",
+  "kanji": "左将",
+  "promoted": false
+ },
+ {
+  "role": "tk-left-mountain-eagle",
+  "kanji": "左山鷲",
+  "promoted": false
+ },
+ {
+  "role": "tk-left-tiger",
+  "kanji": "左虎",
+  "promoted": false
+ },
+ {
+  "role": "tk-leopard-soldier",
+  "kanji": "豹兵",
+  "promoted": false
+ },
+ {
+  "role": "tk-lion",
+  "kanji": "獅子",
+  "promoted": false
+ },
+ {
+  "role": "tk-lion-dog",
+  "kanji": "狛犬",
+  "promoted": false
+ },
+ {
+  "role": "tk-lion-hawk",
+  "kanji": "獅鷹",
+  "promoted": false
+ },
+ {
+  "role": "tk-little-standard",
+  "kanji": "小旗",
+  "promoted": false
+ },
+ {
+  "role": "tk-little-turtle",
+  "kanji": "小亀",
+  "promoted": false
+ },
+ {
+  "role": "tk-longbow-soldier",
+  "kanji": "弩兵",
+  "promoted": false
+ },
+ {
+  "role": "tk-mountain-general",
+  "kanji": "山将",
+  "promoted": false
+ },
+ {
+  "role": "tk-mountain-hawk",
+  "kanji": "山鷹",
+  "promoted": false
+ },
+ {
+  "role": "tk-mountain-stag",
+  "kanji": "山鹿",
+  "promoted": false
+ },
+ {
+  "role": "tk-nature-spirit",
+  "kanji": "夜叉",
+  "promoted": false
+ },
+ {
+  "role": "tk-neighboring-king",
+  "kanji": "近王",
+  "promoted": false
+ },
+ {
+  "role": "tk-northern-barbarian",
+  "kanji": "北狄",
+  "promoted": false
+ },
+ {
+  "role": "tk-old-kite",
+  "kanji": "古鵄",
+  "promoted": false
+ },
+ {
+  "role": "tk-old-monkey",
+  "kanji": "古猿",
+  "promoted": false
+ },
+ {
+  "role": "tk-ox-chariot",
+  "kanji": "牛車",
+  "promoted": false
+ },
+ {
+  "role": "tk-ox-general",
+  "kanji": "牛将",
+  "promoted": false
+ },
+ {
+  "role": "tk-ox-soldier",
+  "kanji": "牛兵",
+  "promoted": false
+ },
+ {
+  "role": "tk-pawn",
+  "kanji": "歩兵",
+  "promoted": false
+ },
+ {
+  "role": "tk-peacock",
+  "kanji": "孔雀",
+  "promoted": false
+ },
+ {
+  "role": "tk-peng-master",
+  "kanji": "鵬師",
+  "promoted": false
+ },
+ {
+  "role": "tk-phoenix",
+  "kanji": "鳳凰",
+  "promoted": false
+ },
+ {
+  "role": "tk-phoenix-master",
+  "kanji": "鳳師",
+  "promoted": false
+ },
+ {
+  "role": "tk-pig-general",
+  "kanji": "豚将",
+  "promoted": false
+ },
+ {
+  "role": "tk-poisonous-serpent",
+  "kanji": "毒蛇",
+  "promoted": false
+ },
+ {
+  "role": "tk-prancing-stag",
+  "kanji": "踊鹿",
+  "promoted": false
+ },
+ {
+  "role": "tk-pup-general",
+  "kanji": "狗将",
+  "promoted": false
+ },
+ {
+  "role": "tk-rain-dragon",
+  "kanji": "雨龍",
+  "promoted": false
+ },
+ {
+  "role": "tk-ram-s-head-soldier",
+  "kanji": "羊兵",
+  "promoted": false
+ },
+ {
+  "role": "tk-rear-standard",
+  "kanji": "後旗",
+  "promoted": false
+ },
+ {
+  "role": "tk-reclining-dragon",
+  "kanji": "臥龍",
+  "promoted": false
+ },
+ {
+  "role": "tk-reverse-chariot",
+  "kanji": "反車",
+  "promoted": false
+ },
+ {
+  "role": "tk-right-chariot",
+  "kanji": "右車",
+  "promoted": false
+ },
+ {
+  "role": "tk-right-dragon",
+  "kanji": "右龍",
+  "promoted": false
+ },
+ {
+  "role": "tk-right-general",
+  "kanji": "右将",
+  "promoted": false
+ },
+ {
+  "role": "tk-right-mountain-eagle",
+  "kanji": "右山鷲",
+  "promoted": false
+ },
+ {
+  "role": "tk-right-tiger",
+  "kanji": "右虎",
+  "promoted": false
+ },
+ {
+  "role": "tk-river-general",
+  "kanji": "川将",
+  "promoted": false
+ },
+ {
+  "role": "tk-roaring-dog",
+  "kanji": "吼犬",
+  "promoted": false
+ },
+ {
+  "role": "tk-running-bear",
+  "kanji": "走熊",
+  "promoted": false
+ },
+ {
+  "role": "tk-running-chariot",
+  "kanji": "走車",
+  "promoted": false
+ },
+ {
+  "role": "tk-running-horse",
+  "kanji": "走馬",
+  "promoted": false
+ },
+ {
+  "role": "tk-running-pup",
+  "kanji": "走狗",
+  "promoted": false
+ },
+ {
+  "role": "tk-running-rabbit",
+  "kanji": "走兎",
+  "promoted": false
+ },
+ {
+  "role": "tk-running-serpent",
+  "kanji": "走蛇",
+  "promoted": false
+ },
+ {
+  "role": "tk-running-stag",
+  "kanji": "走鹿",
+  "promoted": false
+ },
+ {
+  "role": "tk-running-tiger",
+  "kanji": "走虎",
+  "promoted": false
+ },
+ {
+  "role": "tk-running-wolf",
+  "kanji": "走狼",
+  "promoted": false
+ },
+ {
+  "role": "tk-rushing-bird",
+  "kanji": "行鳥",
+  "promoted": false
+ },
+ {
+  "role": "tk-side-boar",
+  "kanji": "横猪",
+  "promoted": false
+ },
+ {
+  "role": "tk-side-dragon",
+  "kanji": "横龍",
+  "promoted": false
+ },
+ {
+  "role": "tk-side-flyer",
+  "kanji": "横飛",
+  "promoted": false
+ },
+ {
+  "role": "tk-side-monkey",
+  "kanji": "横猿",
+  "promoted": false
+ },
+ {
+  "role": "tk-side-mover",
+  "kanji": "横行",
+  "promoted": false
+ },
+ {
+  "role": "tk-side-ox",
+  "kanji": "横牛",
+  "promoted": false
+ },
+ {
+  "role": "tk-side-serpent",
+  "kanji": "横蛇",
+  "promoted": false
+ },
+ {
+  "role": "tk-side-soldier",
+  "kanji": "横兵",
+  "promoted": false
+ },
+ {
+  "role": "tk-side-wolf",
+  "kanji": "横狼",
+  "promoted": false
+ },
+ {
+  "role": "tk-silver-chariot",
+  "kanji": "銀車",
+  "promoted": false
+ },
+ {
+  "role": "tk-silver-general",
+  "kanji": "銀将",
+  "promoted": false
+ },
+ {
+  "role": "tk-silver-rabbit",
+  "kanji": "銀兎",
+  "promoted": false
+ },
+ {
+  "role": "tk-soldier",
+  "kanji": "兵士",
+  "promoted": false
+ },
+ {
+  "role": "tk-southern-barbarian",
+  "kanji": "南蛮",
+  "promoted": false
+ },
+ {
+  "role": "tk-spear-soldier",
+  "kanji": "鎗兵",
+  "promoted": false
+ },
+ {
+  "role": "tk-square-mover",
+  "kanji": "方行",
+  "promoted": false
+ },
+ {
+  "role": "tk-stone-chariot",
+  "kanji": "石車",
+  "promoted": false
+ },
+ {
+  "role": "tk-stone-general",
+  "kanji": "石将",
+  "promoted": false
+ },
+ {
+  "role": "tk-strutting-crow",
+  "kanji": "烏行",
+  "promoted": false
+ },
+ {
+  "role": "tk-sumo-wrestler",
+  "kanji": "力士",
+  "promoted": false
+ },
+ {
+  "role": "tk-swallow-s-wings",
+  "kanji": "燕羽",
+  "promoted": false
+ },
+ {
+  "role": "tk-swooping-owl",
+  "kanji": "鴟行",
+  "promoted": false
+ },
+ {
+  "role": "tk-sword-soldier",
+  "kanji": "刀兵",
+  "promoted": false
+ },
+ {
+  "role": "tk-tengu",
+  "kanji": "天狗",
+  "promoted": false
+ },
+ {
+  "role": "tk-tile-chariot",
+  "kanji": "瓦車",
+  "promoted": false
+ },
+ {
+  "role": "tk-tile-general",
+  "kanji": "瓦将",
+  "promoted": false
+ },
+ {
+  "role": "tk-treacherous-fox",
+  "kanji": "隠狐",
+  "promoted": false
+ },
+ {
+  "role": "tk-turtle-dove",
+  "kanji": "山鳩",
+  "promoted": false
+ },
+ {
+  "role": "tk-turtle-snake",
+  "kanji": "玄武",
+  "promoted": false
+ },
+ {
+  "role": "tk-vermillion-sparrow",
+  "kanji": "朱雀",
+  "promoted": false
+ },
+ {
+  "role": "tk-vertical-bear",
+  "kanji": "竪熊",
+  "promoted": false
+ },
+ {
+  "role": "tk-vertical-horse",
+  "kanji": "竪馬",
+  "promoted": false
+ },
+ {
+  "role": "tk-vertical-leopard",
+  "kanji": "竪豹",
+  "promoted": false
+ },
+ {
+  "role": "tk-vertical-mover",
+  "kanji": "竪行",
+  "promoted": false
+ },
+ {
+  "role": "tk-vertical-pup",
+  "kanji": "竪狗",
+  "promoted": false
+ },
+ {
+  "role": "tk-vertical-soldier",
+  "kanji": "竪兵",
+  "promoted": false
+ },
+ {
+  "role": "tk-vertical-tiger",
+  "kanji": "竪虎",
+  "promoted": false
+ },
+ {
+  "role": "tk-vertical-wolf",
+  "kanji": "竪狼",
+  "promoted": false
+ },
+ {
+  "role": "tk-vice-general",
+  "kanji": "副将",
+  "promoted": false
+ },
+ {
+  "role": "tk-water-dragon",
+  "kanji": "水龍",
+  "promoted": false
+ },
+ {
+  "role": "tk-water-general",
+  "kanji": "水将",
+  "promoted": false
+ },
+ {
+  "role": "tk-water-ox",
+  "kanji": "水牛",
+  "promoted": false
+ },
+ {
+  "role": "tk-western-barbarian",
+  "kanji": "西戎",
+  "promoted": false
+ },
+ {
+  "role": "tk-whale",
+  "kanji": "鯨鯢",
+  "promoted": false
+ },
+ {
+  "role": "tk-white-elephant",
+  "kanji": "白象",
+  "promoted": false
+ },
+ {
+  "role": "tk-white-foal",
+  "kanji": "白駒",
+  "promoted": false
+ },
+ {
+  "role": "tk-white-tiger",
+  "kanji": "白虎",
+  "promoted": false
+ },
+ {
+  "role": "tk-wind-dragon",
+  "kanji": "風龍",
+  "promoted": false
+ },
+ {
+  "role": "tk-wind-general",
+  "kanji": "風将",
+  "promoted": false
+ },
+ {
+  "role": "tk-wind-horse",
+  "kanji": "風馬",
+  "promoted": false
+ },
+ {
+  "role": "tk-wood-chariot",
+  "kanji": "木車",
+  "promoted": false
+ },
+ {
+  "role": "tk-wood-general",
+  "kanji": "木将",
+  "promoted": false
+ },
+ {
+  "role": "tk-wooden-dove",
+  "kanji": "鳩槃",
+  "promoted": false
+ },
+ {
+  "role": "tk-woodland-demon",
+  "kanji": "林鬼",
+  "promoted": false
+ },
+ {
+  "role": "tkp-ancient-dragon",
+  "kanji": "元龍",
+  "promoted": true
+ },
+ {
+  "role": "tkp-angle-mover",
+  "kanji": "角行",
+  "promoted": true
+ },
+ {
+  "role": "tkp-bear-s-eyes",
+  "kanji": "熊眼",
+  "promoted": true
+ },
+ {
+  "role": "tkp-beast-bird",
+  "kanji": "獣鳥",
+  "promoted": true
+ },
+ {
+  "role": "tkp-beast-officer",
+  "kanji": "獣吏",
+  "promoted": true
+ },
+ {
+  "role": "tkp-blue-dragon",
+  "kanji": "青龍",
+  "promoted": true
+ },
+ {
+  "role": "tkp-buddhist-spirit",
+  "kanji": "法性",
+  "promoted": true
+ },
+ {
+  "role": "tkp-cannon-chariot",
+  "kanji": "炮車",
+  "promoted": true
+ },
+ {
+  "role": "tkp-cannon-general",
+  "kanji": "炮将",
+  "promoted": true
+ },
+ {
+  "role": "tkp-cavalier",
+  "kanji": "騎士",
+  "promoted": true
+ },
+ {
+  "role": "tkp-center-standard",
+  "kanji": "中旗",
+  "promoted": true
+ },
+ {
+  "role": "tkp-ceramic-dove",
+  "kanji": "鳩盤",
+  "promoted": true
+ },
+ {
+  "role": "tkp-chariot-soldier",
+  "kanji": "車兵",
+  "promoted": true
+ },
+ {
+  "role": "tkp-cloud-eagle",
+  "kanji": "雲鷲",
+  "promoted": true
+ },
+ {
+  "role": "tkp-coiled-dragon",
+  "kanji": "蟠龍",
+  "promoted": true
+ },
+ {
+  "role": "tkp-copper-elephant",
+  "kanji": "銅象",
+  "promoted": true
+ },
+ {
+  "role": "tkp-crossbow-general",
+  "kanji": "弓将",
+  "promoted": true
+ },
+ {
+  "role": "tkp-crown-prince",
+  "kanji": "太子",
+  "promoted": true
+ },
+ {
+  "role": "tkp-divine-dragon",
+  "kanji": "神龍",
+  "promoted": true
+ },
+ {
+  "role": "tkp-divine-sparrow",
+  "kanji": "神雀",
+  "promoted": true
+ },
+ {
+  "role": "tkp-divine-tiger",
+  "kanji": "神虎",
+  "promoted": true
+ },
+ {
+  "role": "tkp-divine-turtle",
+  "kanji": "神亀",
+  "promoted": true
+ },
+ {
+  "role": "tkp-dragon-horse",
+  "kanji": "龍馬",
+  "promoted": true
+ },
+ {
+  "role": "tkp-dragon-king",
+  "kanji": "龍王",
+  "promoted": true
+ },
+ {
+  "role": "tkp-drunken-elephant",
+  "kanji": "酔象",
+  "promoted": true
+ },
+ {
+  "role": "tkp-elephant-king",
+  "kanji": "象王",
+  "promoted": true
+ },
+ {
+  "role": "tkp-fierce-stag",
+  "kanji": "猛鹿",
+  "promoted": true
+ },
+ {
+  "role": "tkp-fierce-wind",
+  "kanji": "暴風",
+  "promoted": true
+ },
+ {
+  "role": "tkp-fire-ox",
+  "kanji": "火牛",
+  "promoted": true
+ },
+ {
+  "role": "tkp-flying-chariot",
+  "kanji": "飛車",
+  "promoted": true
+ },
+ {
+  "role": "tkp-flying-crocodile",
+  "kanji": "飛鰐",
+  "promoted": true
+ },
+ {
+  "role": "tkp-flying-eagle",
+  "kanji": "飛鷲",
+  "promoted": true
+ },
+ {
+  "role": "tkp-flying-hawk",
+  "kanji": "飛鷹",
+  "promoted": true
+ },
+ {
+  "role": "tkp-flying-ox",
+  "kanji": "飛牛",
+  "promoted": true
+ },
+ {
+  "role": "tkp-flying-stag",
+  "kanji": "飛鹿",
+  "promoted": true
+ },
+ {
+  "role": "tkp-fowl",
+  "kanji": "禽鳥",
+  "promoted": true
+ },
+ {
+  "role": "tkp-fowl-officer",
+  "kanji": "禽吏",
+  "promoted": true
+ },
+ {
+  "role": "tkp-free-bear",
+  "kanji": "奔熊",
+  "promoted": true
+ },
+ {
+  "role": "tkp-free-bird",
+  "kanji": "奔翅",
+  "promoted": true
+ },
+ {
+  "role": "tkp-free-boar",
+  "kanji": "奔猪",
+  "promoted": true
+ },
+ {
+  "role": "tkp-free-chicken",
+  "kanji": "奔鶏",
+  "promoted": true
+ },
+ {
+  "role": "tkp-free-demon",
+  "kanji": "奔鬼",
+  "promoted": true
+ },
+ {
+  "role": "tkp-free-dog",
+  "kanji": "奔犬",
+  "promoted": true
+ },
+ {
+  "role": "tkp-free-dragon",
+  "kanji": "奔龍",
+  "promoted": true
+ },
+ {
+  "role": "tkp-free-fire",
+  "kanji": "奔火",
+  "promoted": true
+ },
+ {
+  "role": "tkp-free-horse",
+  "kanji": "奔馬",
+  "promoted": true
+ },
+ {
+  "role": "tkp-free-king",
+  "kanji": "奔王",
+  "promoted": true
+ },
+ {
+  "role": "tkp-free-leopard",
+  "kanji": "奔豹",
+  "promoted": true
+ },
+ {
+  "role": "tkp-free-ox",
+  "kanji": "奔牛",
+  "promoted": true
+ },
+ {
+  "role": "tkp-free-pig",
+  "kanji": "奔豚",
+  "promoted": true
+ },
+ {
+  "role": "tkp-free-pup",
+  "kanji": "奔狗",
+  "promoted": true
+ },
+ {
+  "role": "tkp-free-serpent",
+  "kanji": "奔蛇",
+  "promoted": true
+ },
+ {
+  "role": "tkp-free-stag",
+  "kanji": "奔鹿",
+  "promoted": true
+ },
+ {
+  "role": "tkp-free-tiger",
+  "kanji": "奔虎",
+  "promoted": true
+ },
+ {
+  "role": "tkp-free-wolf",
+  "kanji": "奔狼",
+  "promoted": true
+ },
+ {
+  "role": "tkp-front-standard",
+  "kanji": "前旗",
+  "promoted": true
+ },
+ {
+  "role": "tkp-furious-fiend",
+  "kanji": "奮迅",
+  "promoted": true
+ },
+ {
+  "role": "tkp-gliding-swallow",
+  "kanji": "燕行",
+  "promoted": true
+ },
+ {
+  "role": "tkp-gold-bird",
+  "kanji": "金翅",
+  "promoted": true
+ },
+ {
+  "role": "tkp-gold-general",
+  "kanji": "金将",
+  "promoted": true
+ },
+ {
+  "role": "tkp-goose-wing",
+  "kanji": "鴻翼",
+  "promoted": true
+ },
+ {
+  "role": "tkp-great-bear",
+  "kanji": "大熊",
+  "promoted": true
+ },
+ {
+  "role": "tkp-great-dove",
+  "kanji": "大鳩",
+  "promoted": true
+ },
+ {
+  "role": "tkp-great-dragon",
+  "kanji": "大龍",
+  "promoted": true
+ },
+ {
+  "role": "tkp-great-dream-eater",
+  "kanji": "大獏",
+  "promoted": true
+ },
+ {
+  "role": "tkp-great-eagle",
+  "kanji": "大鷲",
+  "promoted": true
+ },
+ {
+  "role": "tkp-great-elephant",
+  "kanji": "大象",
+  "promoted": true
+ },
+ {
+  "role": "tkp-great-foal",
+  "kanji": "大駒",
+  "promoted": true
+ },
+ {
+  "role": "tkp-great-general",
+  "kanji": "大将",
+  "promoted": true
+ },
+ {
+  "role": "tkp-great-hawk",
+  "kanji": "大鷹",
+  "promoted": true
+ },
+ {
+  "role": "tkp-great-leopard",
+  "kanji": "大豹",
+  "promoted": true
+ },
+ {
+  "role": "tkp-great-shark",
+  "kanji": "大鱗",
+  "promoted": true
+ },
+ {
+  "role": "tkp-great-stag",
+  "kanji": "大鹿",
+  "promoted": true
+ },
+ {
+  "role": "tkp-great-standard",
+  "kanji": "大旗",
+  "promoted": true
+ },
+ {
+  "role": "tkp-great-tiger",
+  "kanji": "大虎",
+  "promoted": true
+ },
+ {
+  "role": "tkp-great-whale",
+  "kanji": "大鯨",
+  "promoted": true
+ },
+ {
+  "role": "tkp-heavenly-horse",
+  "kanji": "天馬",
+  "promoted": true
+ },
+ {
+  "role": "tkp-heavenly-tetrarch",
+  "kanji": "四天",
+  "promoted": true
+ },
+ {
+  "role": "tkp-heavenly-tetrarch-king",
+  "kanji": "四天王",
+  "promoted": true
+ },
+ {
+  "role": "tkp-hook-mover",
+  "kanji": "鉤行",
+  "promoted": true
+ },
+ {
+  "role": "tkp-horned-hawk",
+  "kanji": "角鷹",
+  "promoted": true
+ },
+ {
+  "role": "tkp-huai-river",
+  "kanji": "淮川",
+  "promoted": true
+ },
+ {
+  "role": "tkp-king-of-teachings",
+  "kanji": "教王",
+  "promoted": true
+ },
+ {
+  "role": "tkp-kirin-master",
+  "kanji": "麟師",
+  "promoted": true
+ },
+ {
+  "role": "tkp-left-army",
+  "kanji": "左軍",
+  "promoted": true
+ },
+ {
+  "role": "tkp-left-dog",
+  "kanji": "左犬",
+  "promoted": true
+ },
+ {
+  "role": "tkp-left-iron-chariot",
+  "kanji": "左鉄車",
+  "promoted": true
+ },
+ {
+  "role": "tkp-leopard-king",
+  "kanji": "豹王",
+  "promoted": true
+ },
+ {
+  "role": "tkp-lion",
+  "kanji": "獅子",
+  "promoted": true
+ },
+ {
+  "role": "tkp-lion-dog",
+  "kanji": "狛犬",
+  "promoted": true
+ },
+ {
+  "role": "tkp-longbow-general",
+  "kanji": "弩将",
+  "promoted": true
+ },
+ {
+  "role": "tkp-mount-tai",
+  "kanji": "泰山",
+  "promoted": true
+ },
+ {
+  "role": "tkp-mountain-crane",
+  "kanji": "山鶻",
+  "promoted": true
+ },
+ {
+  "role": "tkp-mountain-witch",
+  "kanji": "山母",
+  "promoted": true
+ },
+ {
+  "role": "tkp-multi-general",
+  "kanji": "雜将",
+  "promoted": true
+ },
+ {
+  "role": "tkp-phoenix-master",
+  "kanji": "鳳師",
+  "promoted": true
+ },
+ {
+  "role": "tkp-playful-parrot",
+  "kanji": "遊䳇",
+  "promoted": true
+ },
+ {
+  "role": "tkp-plodding-ox",
+  "kanji": "歬牛",
+  "promoted": true
+ },
+ {
+  "role": "tkp-poisonous-wolf",
+  "kanji": "毒狼",
+  "promoted": true
+ },
+ {
+  "role": "tkp-raiding-hawk",
+  "kanji": "延鷹",
+  "promoted": true
+ },
+ {
+  "role": "tkp-rain-demon",
+  "kanji": "霖鬼",
+  "promoted": true
+ },
+ {
+  "role": "tkp-rain-dragon",
+  "kanji": "雨龍",
+  "promoted": true
+ },
+ {
+  "role": "tkp-rear-standard",
+  "kanji": "後旗",
+  "promoted": true
+ },
+ {
+  "role": "tkp-reed-bird",
+  "kanji": "芦鳥",
+  "promoted": true
+ },
+ {
+  "role": "tkp-right-army",
+  "kanji": "右軍",
+  "promoted": true
+ },
+ {
+  "role": "tkp-right-dog",
+  "kanji": "右犬",
+  "promoted": true
+ },
+ {
+  "role": "tkp-right-iron-chariot",
+  "kanji": "右鉄車",
+  "promoted": true
+ },
+ {
+  "role": "tkp-running-boar",
+  "kanji": "走猪",
+  "promoted": true
+ },
+ {
+  "role": "tkp-running-dragon",
+  "kanji": "走龍",
+  "promoted": true
+ },
+ {
+  "role": "tkp-running-horse",
+  "kanji": "走馬",
+  "promoted": true
+ },
+ {
+  "role": "tkp-running-leopard",
+  "kanji": "走豹",
+  "promoted": true
+ },
+ {
+  "role": "tkp-running-ox",
+  "kanji": "走牛",
+  "promoted": true
+ },
+ {
+  "role": "tkp-running-tile",
+  "kanji": "走瓦",
+  "promoted": true
+ },
+ {
+  "role": "tkp-running-wolf",
+  "kanji": "走狼",
+  "promoted": true
+ },
+ {
+  "role": "tkp-rushing-boar",
+  "kanji": "行猪",
+  "promoted": true
+ },
+ {
+  "role": "tkp-side-dragon",
+  "kanji": "横龍",
+  "promoted": true
+ },
+ {
+  "role": "tkp-side-mover",
+  "kanji": "横行",
+  "promoted": true
+ },
+ {
+  "role": "tkp-side-soldier",
+  "kanji": "横兵",
+  "promoted": true
+ },
+ {
+  "role": "tkp-spear-general",
+  "kanji": "鎗将",
+  "promoted": true
+ },
+ {
+  "role": "tkp-spirit-turtle",
+  "kanji": "霊亀",
+  "promoted": true
+ },
+ {
+  "role": "tkp-square-mover",
+  "kanji": "方行",
+  "promoted": true
+ },
+ {
+  "role": "tkp-stone-peng",
+  "kanji": "石鵬",
+  "promoted": true
+ },
+ {
+  "role": "tkp-strong-bear",
+  "kanji": "強熊",
+  "promoted": true
+ },
+ {
+  "role": "tkp-strong-chariot",
+  "kanji": "強車",
+  "promoted": true
+ },
+ {
+  "role": "tkp-strong-eagle",
+  "kanji": "勁鷲",
+  "promoted": true
+ },
+ {
+  "role": "tkp-swallow-s-wings",
+  "kanji": "燕羽",
+  "promoted": true
+ },
+ {
+  "role": "tkp-sword-general",
+  "kanji": "刀将",
+  "promoted": true
+ },
+ {
+  "role": "tkp-tengu",
+  "kanji": "天狗",
+  "promoted": true
+ },
+ {
+  "role": "tkp-thunder-runner",
+  "kanji": "雷走",
+  "promoted": true
+ },
+ {
+  "role": "tkp-tiger-soldier",
+  "kanji": "虎兵",
+  "promoted": true
+ },
+ {
+  "role": "tkp-treacherous-fox",
+  "kanji": "隠狐",
+  "promoted": true
+ },
+ {
+  "role": "tkp-treasure-turtle",
+  "kanji": "宝亀",
+  "promoted": true
+ },
+ {
+  "role": "tkp-turtle-snake",
+  "kanji": "玄武",
+  "promoted": true
+ },
+ {
+  "role": "tkp-vermillion-sparrow",
+  "kanji": "朱雀",
+  "promoted": true
+ },
+ {
+  "role": "tkp-vertical-mover",
+  "kanji": "竪行",
+  "promoted": true
+ },
+ {
+  "role": "tkp-vice-general",
+  "kanji": "副将",
+  "promoted": true
+ },
+ {
+  "role": "tkp-walking-heron",
+  "kanji": "歩䳲",
+  "promoted": true
+ },
+ {
+  "role": "tkp-water-ox",
+  "kanji": "水牛",
+  "promoted": true
+ },
+ {
+  "role": "tkp-whale",
+  "kanji": "鯨鯢",
+  "promoted": true
+ },
+ {
+  "role": "tkp-white-elephant",
+  "kanji": "白象",
+  "promoted": true
+ },
+ {
+  "role": "tkp-white-foal",
+  "kanji": "白駒",
+  "promoted": true
+ },
+ {
+  "role": "tkp-white-tiger",
+  "kanji": "白虎",
+  "promoted": true
+ },
+ {
+  "role": "tkp-wind-snapping-turtle",
+  "kanji": "風鼈",
+  "promoted": true
+ },
+ {
+  "role": "tkp-wooden-dove",
+  "kanji": "鳩槃",
+  "promoted": true
+ }
+]
