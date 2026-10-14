@@ -309,6 +309,23 @@ $place: #f5b942;
     box-shadow: 0 0 18px rgba($pick, 0.5);
   }
 
+  // nothing selected yet: a dimmed version of the phase colour instead of lishogi's default (blue) button
+  &.tk-lock--ban[disabled],
+  &.tk-lock--pick[disabled] {
+    color: rgba(255, 255, 255, 0.75);
+    box-shadow: none;
+    opacity: 1;
+    cursor: default;
+  }
+
+  &.tk-lock--ban[disabled] {
+    background: rgba($ban, 0.38);
+  }
+
+  &.tk-lock--pick[disabled] {
+    background: rgba($pick, 0.38);
+  }
+
   &[disabled] {
     background: theme.$c-bg-zebra;
     color: theme.$c-font-dim;
@@ -471,6 +488,8 @@ $place: #f5b942;
 
 .tk-side {
   grid-area: side;
+  // stretch to the full row so that the sticky detail panel follows the pool while scrolling
+  align-self: stretch;
   min-width: 0;
 }
 // keep both line-ups in view while scrolling through the pool
