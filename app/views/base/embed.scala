@@ -54,7 +54,8 @@ object embed {
   private def pieceSpriteByVariant(
       variant: shogi.variant.Variant,
   )(implicit config: EmbedConfig): Frag =
-    if (variant.chushogi) chuPieceSprite(config.chuPieceSet)
+    if (variant.taikyokudraft) taikyokuPieceSprite
+    else if (variant.chushogi) chuPieceSprite(config.chuPieceSet)
     else if (variant.kyotoshogi) kyoPieceSprite(config.kyoPieceSet)
     else if (variant.dobutsu) dobutsuPieceSprite(config.dobutsuPieceSet)
     else defaultPieceSprite(config.pieceSet)

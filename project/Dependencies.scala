@@ -21,7 +21,7 @@ object Dependencies {
   val lettuce     = "io.lettuce"          % "lettuce-core"                    % "7.4.0.RELEASE"
   val scaffeine   = "com.github.blemale" %% "scaffeine"                       % "5.3.0" % "compile"
   val scalatags   = "com.lihaoyi"        %% "scalatags"                       % "0.13.1"
-  val shogi    = "io.github.wandererxii" %% "scalashogi" % "13.2.0"
+  val shogi    = "io.github.wandererxii" %% "scalashogi" % "13.3.0-taikyoku"
   val uaparser = "org.uaparser"          %% "uap-scala"  % "0.21.0"
 
   object play {

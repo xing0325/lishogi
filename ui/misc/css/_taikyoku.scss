@@ -1,0 +1,349 @@
+@use 'pkg:common/theme';
+
+$blue: #2f6fd6;
+$red: #d0393b;
+
+.taikyoku-home {
+  &__desc {
+    font-size: 1.1em;
+    margin-bottom: 1em;
+  }
+  &__rules {
+    list-style: disc;
+    margin: 0 0 1.5em 1.5em;
+    line-height: 1.7;
+  }
+  &__selects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em 2em;
+    margin-bottom: 1em;
+    label {
+      display: flex;
+      flex-direction: column;
+      gap: 0.3em;
+    }
+  }
+  &__create {
+    margin-bottom: 2em;
+  }
+  &__rooms td {
+    padding: 0.6em 1em;
+  }
+}
+
+.taikyoku-room {
+  grid-area: main;
+  width: 100%;
+  box-sizing: border-box;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 1em;
+  container-type: inline-size;
+}
+
+.tk-top {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 1em;
+  align-items: start;
+  @container (max-width: 800px) {
+    grid-template-columns: 1fr;
+  }
+}
+.tk-player {
+  background: theme.$c-bg-box;
+  border-radius: 6px;
+  padding: 0.7em 1em;
+  border-top: 4px solid transparent;
+  &--sente {
+    border-color: $blue;
+  }
+  &--gote {
+    border-color: $red;
+  }
+  &--active {
+    box-shadow: 0 0 0 2px #e6b33a;
+  }
+  &__name {
+    font-weight: bold;
+    margin-bottom: 0.4em;
+    em {
+      font-weight: normal;
+      color: theme.$c-font-dim;
+    }
+  }
+  &__row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3em;
+    align-items: center;
+    min-height: 2em;
+    label {
+      width: 3.5em;
+      color: theme.$c-font-dim;
+      font-size: 0.9em;
+    }
+  }
+}
+.tk-timer {
+  float: right;
+  font-variant-numeric: tabular-nums;
+  background: #e6b33a;
+  color: #000;
+  border-radius: 3px;
+  padding: 0 0.4em;
+}
+.tk-chip {
+  display: inline-block;
+  padding: 0.1em 0.45em;
+  border-radius: 3px;
+  font-weight: bold;
+  background: #f3d9a4;
+  color: #1b1208;
+  &--ban {
+    background: #555;
+    color: #ddd;
+    text-decoration: line-through;
+  }
+  &--none {
+    background: transparent;
+    color: theme.$c-font-dim;
+    border: 1px dashed theme.$c-font-dim;
+    font-weight: normal;
+  }
+}
+.tk-timeline {
+  display: grid;
+  grid-template-columns: repeat(10, 1.9em);
+  gap: 0.25em;
+  align-self: center;
+}
+.tk-tl {
+  text-align: center;
+  border-radius: 3px;
+  padding: 0.15em 0;
+  font-size: 0.85em;
+  color: #fff;
+  opacity: 0.45;
+  &--sente {
+    background: $blue;
+  }
+  &--gote {
+    background: $red;
+  }
+  &--ban {
+    filter: grayscale(0.6);
+  }
+  &--done {
+    opacity: 0.8;
+  }
+  &--now {
+    opacity: 1;
+    outline: 2px solid #e6b33a;
+    transform: scale(1.12);
+  }
+}
+.tk-status {
+  margin: 1em 0;
+  font-size: 1.1em;
+  min-height: 2.2em;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+.tk-error {
+  color: theme.$c-bad;
+}
+.tk-wait input {
+  width: 30em;
+  max-width: 100%;
+}
+
+.tk-pool {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 0.6em;
+}
+.tk-card {
+  background: theme.$c-bg-box;
+  border-radius: 6px;
+  padding: 0.5em;
+  border: 2px solid transparent;
+  position: relative;
+  &--clickable {
+    cursor: pointer;
+    &:hover {
+      border-color: #e6b33a;
+    }
+  }
+  &--banned {
+    opacity: 0.35;
+    filter: grayscale(1);
+  }
+  &--sente {
+    border-color: $blue;
+  }
+  &--gote {
+    border-color: $red;
+  }
+  &--big {
+    width: 260px;
+  }
+  &__head {
+    display: flex;
+    align-items: baseline;
+    gap: 0.4em;
+    margin-bottom: 0.3em;
+  }
+  &__kanji {
+    font-size: 1.4em;
+    font-weight: bold;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  &__en {
+    font-size: 0.75em;
+    color: theme.$c-font-dim;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  &__foot {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25em;
+    margin-top: 0.3em;
+    font-size: 0.75em;
+  }
+}
+.tk-promo {
+  color: #b3140f;
+  font-weight: bold;
+}
+.tk-nopromo {
+  color: theme.$c-font-dim;
+}
+.tk-tag {
+  background: #3d6b4a;
+  color: #fff;
+  border-radius: 3px;
+  padding: 0 0.3em;
+}
+.tk-diagram {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  aspect-ratio: 1;
+  gap: 1px;
+  background: #8a7550;
+  border: 1px solid #8a7550;
+  i {
+    background: #ead9b5;
+    position: relative;
+  }
+  .tk-self {
+    background: #1b1208;
+  }
+  .tk-step,
+  .tk-leap,
+  .tk-far,
+  .tk-lion,
+  .tk-jump {
+    &::after {
+      content: '';
+      position: absolute;
+      inset: 22%;
+      border-radius: 50%;
+      background: #2a5bb8;
+    }
+  }
+  .tk-leap::after {
+    background: transparent;
+    border: 2px solid #2a5bb8;
+    inset: 18%;
+  }
+  .tk-far::after {
+    border-radius: 0;
+    inset: 15%;
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+  }
+  .tk-lion::after {
+    background: #c0392b;
+  }
+  .tk-jump::after {
+    background: transparent;
+    border: 2px dotted #2a5bb8;
+  }
+  .tk-hook::after {
+    background: #8e44ad;
+  }
+  .tk-range::after {
+    background: #d35400;
+  }
+  .tk-m::after {
+    background: #7fa3e0;
+  }
+  .tk-c::after {
+    background: transparent;
+    border: 2px solid #b3140f;
+  }
+}
+
+.tk-place {
+  display: flex;
+  gap: 2em;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.tk-board {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: min(90vw, 480px);
+  aspect-ratio: 11 / 12;
+  background: #e8c37a;
+  border: 3px solid #7a5a2e;
+  gap: 1px;
+  .tk-sq {
+    background: #efcf8d;
+    position: relative;
+    &--home-sente {
+      background: #e3c9a0;
+    }
+    &--home-gote {
+      background: #e9c1a8;
+    }
+    &--ok {
+      cursor: pointer;
+      box-shadow: inset 0 0 0 4px #2e9e4f;
+    }
+  }
+  // the piece sprite uses container units, so the piece needs a definite size;
+  // more specific than the generic .sg-wrap piece rules (this board is not shogiground)
+  .tk-sq piece {
+    position: absolute;
+    left: 4%;
+    top: 4%;
+    width: 92%;
+    height: 92%;
+    transform: none;
+    display: block;
+    cursor: default;
+  }
+}
+.tk-side {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.tk-roster {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
+  .button.active {
+    outline: 3px solid #2e9e4f;
+  }
+}
+.tk-hint {
+  color: theme.$c-font-dim;
+}

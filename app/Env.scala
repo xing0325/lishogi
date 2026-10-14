@@ -32,6 +32,7 @@ final class Env(
     val msg: lila.msg.Env,
     val game: lila.game.Env,
     val bookmark: lila.bookmark.Env,
+    val taikyoku: lila.taikyoku.Env,
     val search: lila.search.Env,
     val gameSearch: lila.gameSearch.Env,
     val timeline: lila.timeline.Env,
@@ -208,6 +209,7 @@ final class EnvBoot(
   lazy val msg: lila.msg.Env                 = wire[lila.msg.Env]
   lazy val game: lila.game.Env               = wire[lila.game.Env]
   lazy val bookmark: lila.bookmark.Env       = wire[lila.bookmark.Env]
+  lazy val taikyoku: lila.taikyoku.Env       = wire[lila.taikyoku.Env]
   lazy val search: lila.search.Env           = wire[lila.search.Env]
   lazy val gameSearch: lila.gameSearch.Env   = wire[lila.gameSearch.Env]
   lazy val timeline: lila.timeline.Env       = wire[lila.timeline.Env]

@@ -92,6 +92,7 @@ final class LilaComponents(ctx: ApplicationLoader.Context)
   lazy val article: Article               = wire[Article]
   lazy val auth: Auth                     = wire[Auth]
   lazy val bookmark: Bookmark             = wire[Bookmark]
+  lazy val taikyoku: Taikyoku             = wire[Taikyoku]
   lazy val playApi: PlayApi               = wire[PlayApi]
   lazy val challenge: Challenge           = wire[Challenge]
   lazy val chatroom: Chatroom             = wire[Chatroom]

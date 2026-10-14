@@ -39,6 +39,13 @@ trait ShogiHelper { self: I18nHelper =>
       case _                      => color.fold(trans.shitate.txt(), trans.uwate.txt())
     }
 
+  // not translated yet
+  def taikyokuText(zh: String, ja: String, en: String)(implicit lang: Lang): String =
+    lang.language match {
+      case "zh" => zh
+      case "ja" => ja
+      case _    => en
+    }
   def variantName(v: shogi.variant.Variant)(implicit lang: Lang): String =
     v match {
       case shogi.variant.Minishogi  => trans.minishogi.txt()
@@ -47,7 +54,9 @@ trait ShogiHelper { self: I18nHelper =>
       case shogi.variant.Kyotoshogi => trans.kyotoshogi.txt()
       case shogi.variant.Checkshogi => trans.checkshogi.txt()
       case shogi.variant.Dobutsu    => trans.dobutsu.txt()
-      case _                        => trans.shogi.txt()
+      case shogi.variant.Taikyokudraft =>
+        taikyokuText("大局选将", "大局ドラフト", "Taikyoku Draft")
+      case _ => trans.shogi.txt()
     }
 
   def variantDescription(v: shogi.variant.Variant)(implicit lang: Lang): String =
@@ -58,7 +67,13 @@ trait ShogiHelper { self: I18nHelper =>
       case shogi.variant.Kyotoshogi => trans.kyotoshogiDescription.txt()
       case shogi.variant.Checkshogi => trans.checkshogiDescription.txt()
       case shogi.variant.Dobutsu    => trans.dobutsuDescription.txt()
-      case _                        => trans.standardDescription.txt()
+      case shogi.variant.Taikyokudraft =>
+        taikyokuText(
+          "从大局将棋的棋子池中轮流禁用、选择棋子，在 5×5 棋盘上布阵对弈。",
+          "大局将棋の駒からバン・ピックで駒を選び、5×5 の盤に配置して対局します。",
+          "Ban and pick pieces from taikyoku shogi, place them on a 5x5 board and play.",
+        )
+      case _ => trans.standardDescription.txt()
     }
 
   def variantIcon(v: shogi.variant.Variant): String =
@@ -69,6 +84,7 @@ trait ShogiHelper { self: I18nHelper =>
       case shogi.variant.Kyotoshogi => Icons.kyotoshogi
       case shogi.variant.Checkshogi => Icons.checkshogi
       case shogi.variant.Dobutsu    => Icons.dobutsu
+      case shogi.variant.Taikyokudraft => Icons.chushogi
       case _                        => Icons.standard
     }
 

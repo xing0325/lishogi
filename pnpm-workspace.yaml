@@ -2,6 +2,10 @@ packages:
   - ui/**/*
   - bin
 
+allowBuilds:
+  esbuild: true
+  ttf2woff2: true
+
 catalog:
   breakpoint-sass: github:WandererXII/breakpoint#4.1
   shogiground: ^0.10.3
@@ -21,3 +25,6 @@ patchedDependencies:
   '@toast-ui/editor': patches/@toast-ui__editor.patch
 
 savePrefix: ''
+overrides:
+  shogiground: link:../shogiground
+  shogiops: link:../shogiops

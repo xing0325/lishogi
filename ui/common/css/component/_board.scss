@@ -27,6 +27,7 @@
     }
   }
 
+  &.v-taikyokudraft,
   &.v-minishogi,
   &.v-kyotoshogi {
     padding-bottom: calc(100% / 11 * 12 / 5 * 7 + #{uniboard.$hands-gap});
@@ -67,6 +68,7 @@
       gap: 2vmin;
     }
 
+    &.v-taikyokudraft,
     &.v-minishogi,
     &.v-kyotoshogi {
       padding-bottom: calc((100% - #{uniboard.$hands-gap}) / 7 * 5 / 11 * 12);
@@ -101,6 +103,7 @@
 }
 
 .mini-board {
+  &.v-taikyokudraft,
   &.v-minishogi,
   &.v-kyotoshogi {
     padding-bottom: calc(100% / 11 * 12 / 5 * 7 + #{uniboard.$hands-gap});

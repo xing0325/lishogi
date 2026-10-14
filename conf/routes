@@ -209,6 +209,14 @@ GET   /streamer/:username              controllers.Streamer.show(username: Strin
 GET   /streamer/:username/redirect     controllers.Streamer.redirect(username: String)
 
 # Round
+# Taikyoku draft (before the game routes: "taikyoku" has 8 letters)
+GET   /taikyoku                          controllers.Taikyoku.home
+POST  /taikyoku/new                      controllers.Taikyoku.create
+GET   /taikyoku/$id<\w{8}>               controllers.Taikyoku.show(id: String)
+GET   /taikyoku/$id<\w{8}>/state         controllers.Taikyoku.state(id: String)
+POST  /taikyoku/$id<\w{8}>/join          controllers.Taikyoku.join(id: String)
+POST  /taikyoku/$id<\w{8}>/act           controllers.Taikyoku.act(id: String)
+
 GET   /$gameId<\w{8}>                            controllers.Round.gameOrChallengeDefault(gameId: String)
 GET   /$gameId<\w{8}>/$color<sente|gote>         controllers.Round.gameOrChallenge(gameId: String, color: String)
 GET   /$gameId<\w{8}>/$color<sente|gote>/sides   controllers.Round.sides(gameId: String, color: String)

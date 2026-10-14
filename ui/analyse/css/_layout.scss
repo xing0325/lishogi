@@ -20,7 +20,7 @@
       width: 100%;
     }
 
-    &:has(.main-v-minishogi, .main-v-kyotoshogi) .analyse__board {
+    &:has(.main-v-minishogi, .main-v-taikyokudraft, .main-v-kyotoshogi) .analyse__board {
       width: calc(
         (
             100vh - #{variables.$site-header-outer-height} - #{uniboard.$col1-uniboard-controls} -

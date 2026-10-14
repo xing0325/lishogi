@@ -124,6 +124,7 @@ coords {
         }
       }
 
+      &.v-taikyokudraft sg-hand-wrap,
       &.v-minishogi sg-hand-wrap {
         height: calc(100% - #{$edge-size});
 

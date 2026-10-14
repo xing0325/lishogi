@@ -118,7 +118,7 @@
     max-width: calc(100vh / 11 * 9 / 12 * 11 - #{uniboard.$hand-gap} - #{$space-around});
     margin: auto;
 
-    &:has(.v-minishogi),
+    &:has(.v-minishogi, .v-taikyokudraft),
     &:has(.v-kyotoshogi) {
       max-width: calc(100vh / 7 * 5 / 12 * 11 - #{uniboard.$hand-gap} - #{$space-around});
     }

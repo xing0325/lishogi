@@ -28,6 +28,7 @@
     height: 3rem;
   }
 
+  &.main-v-taikyokudraft,
   &.main-v-minishogi,
   &.main-v-kyotoshogi {
     grid-template-rows:
@@ -61,6 +62,7 @@
     column-gap: uniboard.$hand-gap;
     padding-left: uniboard.$hand-gap;
 
+    &.main-v-taikyokudraft,
     &.main-v-minishogi,
     &.main-v-kyotoshogi {
       grid-template-columns: calc((100vh - 3rem) / 12 * 11 / 5 * 7 + 4vmin) 1fr;

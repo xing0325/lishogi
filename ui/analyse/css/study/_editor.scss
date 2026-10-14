@@ -44,6 +44,7 @@ $board-width: calc(
   margin: auto;
 
   &.main-v-kyotoshogi,
+  &.main-v-taikyokudraft,
   &.main-v-minishogi {
     max-width: calc(100vh / 12 * 5 / 12 * 11 - #{uniboard.$hands-gap});
   }
@@ -120,6 +121,7 @@ $board-width: calc(
       }
     }
 
+    &.main-v-taikyokudraft,
     &.main-v-minishogi,
     &.main-v-kyotoshogi {
       grid-template-columns: 2fr 7fr 2fr;

@@ -307,6 +307,7 @@
     }
   }
 
+  .main-board.v-taikyokudraft &.compact-layout,
   .main-board.v-minishogi &.compact-layout,
   .main-board.v-kyotoshogi &.compact-layout {
     @include breakpoint.breakpoint(uniboard.$mq-col2-uniboard) {

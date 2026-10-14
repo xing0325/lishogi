@@ -84,7 +84,8 @@ object player {
   private def proPieceSetOverride(
       variant: shogi.variant.Variant,
   )(implicit ctx: Context): Option[Frag] =
-    if (variant.dobutsu)
+    if (variant.taikyokudraft) none // see variantPieceSprite
+    else if (variant.dobutsu)
       !ctx.currentDobutsuPieceSet.pro ?? dobutsuPieceSprite(lila.pref.DobutsuPieceSet.default).some
     else if (variant.kyotoshogi)
       !ctx.currentKyoPieceSet.pro ?? kyoPieceSprite(lila.pref.KyoPieceSet.default).some

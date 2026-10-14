@@ -20,7 +20,12 @@ import type { State } from 'shogiground/state';
 import type * as sg from 'shogiground/types';
 import { samePiece } from 'shogiground/util';
 import { eagleLionAttacks, falconLionAttacks } from 'shogiops/attacks';
-import { checksSquareNames, shogigroundSecondLionStep, usiToSquareNames } from 'shogiops/compat';
+import {
+  checksSquareNames,
+  shogigroundSecondLionStep,
+  shogigroundTaikyokuSecondStep,
+  usiToSquareNames,
+} from 'shogiops/compat';
 import { initialSfen, parseSfen } from 'shogiops/sfen';
 import type { NormalMove, Piece, Role, Square } from 'shogiops/types';
 import {
@@ -35,6 +40,7 @@ import {
   squareDist,
 } from 'shogiops/util';
 import type { Chushogi } from 'shogiops/variant/chushogi';
+import { type Taikyokudraft, taikyokuMidSteps } from 'shogiops/variant/taikyokudraft';
 import type { PositionError, Position as ShogiPosition } from 'shogiops/variant/position';
 import { handRoles, promotableOnDrop, promote, unpromote } from 'shogiops/variant/util';
 import * as blur from './blur';
@@ -250,7 +256,7 @@ export default class RoundController {
   };
 
   private onUserMove = (orig: Key, dest: Key, prom: boolean, meta: sg.MoveMetadata) => {
-    if (this.data.game.variant.key === 'chushogi')
+    if (this.data.game.variant.key === 'chushogi' || this.data.game.variant.key === 'taikyokudraft')
       return this.onChushogiMove(orig, dest, prom, meta);
 
     // to update hand immediately and not wait on apiUsi
@@ -281,8 +287,37 @@ export default class RoundController {
   private onChushogiMove = (orig: Key, dest: Key, prom: boolean, meta: sg.MoveMetadata) => {
     const posRes = this.position(this.stepAt(this.ply));
     const piece = posRes.isOk && posRes.value.board.get(parseSquareName(orig))!;
+    // taikyokudraft: the piece stepped on a mid square of a lion move / igui
     if (
       piece &&
+      posRes.isOk &&
+      posRes.value.rules === 'taikyokudraft' &&
+      this.lionFirstMove === undefined &&
+      taikyokuMidSteps(posRes.value as Taikyokudraft, parseSquareName(orig)).has(
+        parseSquareName(dest),
+      )
+    ) {
+      const pos = posRes.value as Taikyokudraft;
+      this.shogiground.set({
+        activeColor: pos.turn,
+        turnColor: pos.turn,
+        checks: checksSquareNames(pos),
+        movable: {
+          dests: shogigroundTaikyokuSecondStep(pos, orig, dest),
+        },
+        drawable: {
+          squares: [{ key: dest, className: 'force-selected' }],
+        },
+      });
+      this.shogiground.selectSquare(dest, false, true);
+      this.lionFirstMove = {
+        from: parseSquareName(orig),
+        to: parseSquareName(dest),
+      };
+    } else if (
+      piece &&
+      posRes.isOk &&
+      posRes.value.rules === 'chushogi' &&
       this.lionFirstMove === undefined &&
       squareDist(parseSquareName(orig), parseSquareName(dest)) === 1 &&
       (['lion', 'lionpromoted'].includes(piece.role) ||

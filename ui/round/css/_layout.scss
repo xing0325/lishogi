@@ -23,7 +23,7 @@
       width: 100%;
     }
 
-    &:has(.main-v-minishogi, .main-v-kyotoshogi) .round__app__board {
+    &:has(.main-v-minishogi, .main-v-taikyokudraft, .main-v-kyotoshogi) .round__app__board {
       width: calc((#{$vertical-total}) / 7 * 5 / 12 * 11);
       max-width: 100vw;
     }
